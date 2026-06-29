@@ -1,0 +1,18 @@
+{
+  "name": "♥️ xrivet bot♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://files.catbox.moe/prkkzj.png",
+  "repository": "",
+  "keywords": ["@cybet rivet"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || Cyber rivet OFFICIAL 🔰",
+      "required": false 
+    }
+  }
+}
