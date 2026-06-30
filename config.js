@@ -9,7 +9,7 @@ module.exports = {
     // ===========================================================
     // 1. CONFIGURATION DE BASE (Session & Database)
     // ===========================================================
-    SESSION_ID: process.env.SESSION_ID || "MINI BOT", 
+    SESSION_ID: process.env.SESSION_ID || "xrivet bot", 
     MONGODB_URI: process.env.MONGODB_URI || 'mongodb+srv://Hadii09:<db_password>@cluster0.qe7f54x.mongodb.net/?appName=Cluster0',
     
     // ===========================================================
